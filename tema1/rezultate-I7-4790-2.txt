@@ -1,0 +1,144 @@
+TEST 1:
+N=10  Nmax=100
+
+Sir aleator
+
+quick sort cu pivot aleator sort time: 0 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 3 sort time: 0 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 5 sort time: 0 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+radix sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+Sir sortat crescator
+
+quick sort cu pivot aleator sort time: 0 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 3 sort time: 0 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 5 sort time: 1 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+radix sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+Sir sortat descrescator
+
+quick sort cu pivot aleator sort time: 0 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 3 sort time: 0 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 0
+******************************
+quick sort cu pivot mediana din 5 sort time: 0 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+radix sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+Sir aproape sortat crescator
+
+quick sort cu pivot aleator sort time: 0 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 3 sort time: 0 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 5 sort time: 0 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+radix sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+Sir aproape sortat descrescator
+
+quick sort cu pivot aleator sort time: 0 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 3 sort time: 0 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 5 sort time: 1 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+radix sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+Sir constant
+
+quick sort cu pivot aleator sort time: 0 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 3 sort time: 0 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 5 sort time: 0 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+radix sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+
+------------------------------------
+

@@ -1,0 +1,471 @@
+TEST 1:
+N=1  Nmax=100000
+
+Sir sortat crescator
+
+bubble sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: 0 byte(s)
+Succes: 1
+******************************
+count sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~400000 byte(s)
+Succes: 1
+******************************
+merge sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: 4 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot aleator sort time: 0 milisecond(s).
+Memorie aditionala folosita: 0 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 3 sort time: 0 milisecond(s).
+Memorie aditionala folosita: 0 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 5 sort time: 0 milisecond(s).
+Memorie aditionala folosita: 0 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 256 buckets (cu matrice) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~36 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 1024 buckets (cu matrice) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~44 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 256 buckets sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~36 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 1024 buckets sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~44 byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+
+------------------------------------
+
+TEST 2:
+N=10  Nmax=100000
+
+Sir sortat crescator
+
+bubble sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: 0 byte(s)
+Succes: 1
+******************************
+count sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~400000 byte(s)
+Succes: 1
+******************************
+merge sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: 40 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot aleator sort time: 0 milisecond(s).
+Memorie aditionala folosita: 1 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 3 sort time: 0 milisecond(s).
+Memorie aditionala folosita: 1 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 5 sort time: 0 milisecond(s).
+Memorie aditionala folosita: 1 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 256 buckets (cu matrice) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~72 byte(s)
+Succes: 0
+******************************
+radix sort LSD cu 1024 buckets (cu matrice) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~80 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 256 buckets sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~72 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 1024 buckets sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~80 byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+
+------------------------------------
+
+TEST 3:
+N=100  Nmax=100000
+
+Sir sortat crescator
+
+bubble sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: 0 byte(s)
+Succes: 1
+******************************
+count sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~400000 byte(s)
+Succes: 1
+******************************
+merge sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: 400 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot aleator sort time: 0 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 3 sort time: 0 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 5 sort time: 0 milisecond(s).
+Memorie aditionala folosita: 2 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 256 buckets (cu matrice) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~432 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 1024 buckets (cu matrice) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~440 byte(s)
+Succes: 0
+******************************
+radix sort LSD cu 256 buckets sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~432 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 1024 buckets sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~440 byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+
+------------------------------------
+
+TEST 4:
+N=1000  Nmax=100000
+
+Sir sortat crescator
+
+bubble sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: 0 byte(s)
+Succes: 1
+******************************
+count sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~400000 byte(s)
+Succes: 1
+******************************
+merge sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: 4000 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot aleator sort time: 0 milisecond(s).
+Memorie aditionala folosita: 3 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 3 sort time: 0 milisecond(s).
+Memorie aditionala folosita: 3 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 5 sort time: 0 milisecond(s).
+Memorie aditionala folosita: 3 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 256 buckets (cu matrice) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~4032 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 1024 buckets (cu matrice) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~4040 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 256 buckets sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~4032 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 1024 buckets sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~4040 byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+
+------------------------------------
+
+TEST 5:
+N=10000  Nmax=100000
+
+Sir sortat crescator
+
+bubble sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: 0 byte(s)
+Succes: 1
+******************************
+count sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~400000 byte(s)
+Succes: 1
+******************************
+merge sort sort time: 1 milisecond(s).
+Memorie aditionala folosita: 40000 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot aleator sort time: 0 milisecond(s).
+Memorie aditionala folosita: 4 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 3 sort time: 0 milisecond(s).
+Memorie aditionala folosita: 4 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 5 sort time: 1 milisecond(s).
+Memorie aditionala folosita: 4 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 256 buckets (cu matrice) sort time: 1 milisecond(s).
+Memorie aditionala folosita: ~40032 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 1024 buckets (cu matrice) sort time: 1 milisecond(s).
+Memorie aditionala folosita: ~40040 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 256 buckets sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~40032 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 1024 buckets sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~40040 byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+
+------------------------------------
+
+TEST 6:
+N=100000  Nmax=100000
+
+Sir sortat crescator
+
+bubble sort sort time: 0 milisecond(s).
+Memorie aditionala folosita: 0 byte(s)
+Succes: 1
+******************************
+count sort sort time: 2 milisecond(s).
+Memorie aditionala folosita: ~400000 byte(s)
+Succes: 1
+******************************
+merge sort sort time: 24 milisecond(s).
+Memorie aditionala folosita: 400000 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot aleator sort time: 15 milisecond(s).
+Memorie aditionala folosita: 5 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 3 sort time: 14 milisecond(s).
+Memorie aditionala folosita: 5 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 5 sort time: 14 milisecond(s).
+Memorie aditionala folosita: 5 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 256 buckets (cu matrice) sort time: 7 milisecond(s).
+Memorie aditionala folosita: ~400032 byte(s)
+Succes: 0
+******************************
+radix sort LSD cu 1024 buckets (cu matrice) sort time: 8 milisecond(s).
+Memorie aditionala folosita: ~400040 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 256 buckets sort time: 5 milisecond(s).
+Memorie aditionala folosita: ~400032 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 1024 buckets sort time: 5 milisecond(s).
+Memorie aditionala folosita: ~400040 byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 18 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+
+------------------------------------
+
+TEST 7:
+N=1000000  Nmax=100000
+
+Sir sortat crescator
+
+bubble sort sortarea nu poate fi realizata(prea incet, N>10^4)
+******************************
+count sort sort time: 13 milisecond(s).
+Memorie aditionala folosita: ~400000 byte(s)
+Succes: 1
+******************************
+merge sort sort time: 281 milisecond(s).
+Memorie aditionala folosita: 4000000 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot aleator sort time: 193 milisecond(s).
+Memorie aditionala folosita: 6 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 3 sort time: 188 milisecond(s).
+Memorie aditionala folosita: 6 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 5 sort time: 192 milisecond(s).
+Memorie aditionala folosita: 6 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 256 buckets (cu matrice) sort time: 69 milisecond(s).
+Memorie aditionala folosita: ~4000032 byte(s)
+Succes: 0
+******************************
+radix sort LSD cu 1024 buckets (cu matrice) sort time: 70 milisecond(s).
+Memorie aditionala folosita: ~4000040 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 256 buckets sort time: 57 milisecond(s).
+Memorie aditionala folosita: ~4000032 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 1024 buckets sort time: 61 milisecond(s).
+Memorie aditionala folosita: ~4000040 byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 225 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+
+------------------------------------
+
+TEST 8:
+N=10000000  Nmax=100000
+
+Sir sortat crescator
+
+bubble sort sortarea nu poate fi realizata(prea incet, N>10^4)
+******************************
+count sort sort time: 138 milisecond(s).
+Memorie aditionala folosita: ~400000 byte(s)
+Succes: 1
+******************************
+merge sort sort time: 3234 milisecond(s).
+Memorie aditionala folosita: 40000000 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot aleator sort time: 2172 milisecond(s).
+Memorie aditionala folosita: 7 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 3 sort time: 2128 milisecond(s).
+Memorie aditionala folosita: 7 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 5 sort time: 2166 milisecond(s).
+Memorie aditionala folosita: 7 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 256 buckets (cu matrice) sort time: 706 milisecond(s).
+Memorie aditionala folosita: ~40000032 byte(s)
+Succes: 0
+******************************
+radix sort LSD cu 1024 buckets (cu matrice) sort time: 690 milisecond(s).
+Memorie aditionala folosita: ~40000040 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 256 buckets sort time: 568 milisecond(s).
+Memorie aditionala folosita: ~40000032 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 1024 buckets sort time: 565 milisecond(s).
+Memorie aditionala folosita: ~40000040 byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 2788 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+
+------------------------------------
+
+TEST 9:
+N=100000000  Nmax=100000
+
+Sir sortat crescator
+
+bubble sort sortarea nu poate fi realizata(prea incet, N>10^4)
+******************************
+count sort sort time: 1377 milisecond(s).
+Memorie aditionala folosita: ~400000 byte(s)
+Succes: 1
+******************************
+merge sort sort time: 36206 milisecond(s).
+Memorie aditionala folosita: 400000000 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot aleator sort time: 23973 milisecond(s).
+Memorie aditionala folosita: 8 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 3 sort time: 23213 milisecond(s).
+Memorie aditionala folosita: 8 byte(s)
+Succes: 1
+******************************
+quick sort cu pivot mediana din 5 sort time: 23526 milisecond(s).
+Memorie aditionala folosita: 8 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 256 buckets (cu matrice) sort time: 6925 milisecond(s).
+Memorie aditionala folosita: ~400000032 byte(s)
+Succes: 0
+******************************
+radix sort LSD cu 1024 buckets (cu matrice) sort time: 7025 milisecond(s).
+Memorie aditionala folosita: ~400000040 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 256 buckets sort time: 5646 milisecond(s).
+Memorie aditionala folosita: ~400000032 byte(s)
+Succes: 1
+******************************
+radix sort LSD cu 1024 buckets sort time: 5702 milisecond(s).
+Memorie aditionala folosita: ~400000040 byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 31212 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+
+------------------------------------
+

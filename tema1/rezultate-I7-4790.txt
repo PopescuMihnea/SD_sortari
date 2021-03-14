@@ -1,0 +1,84 @@
+TEST 1:
+N=100000  Nmax=100000000
+
+Sir aleator
+
+bubble sort sortarea nu poate fi realizata
+******************************
+count sort sort time: 225022 microseconds.
+Memorie aditionala folosita: ~400000000 byte(s)
+Succes: 1
+******************************
+merge sort sort time: 60210 microseconds.
+Memorie aditionala folosita: 400000 byte(s)
+Succes: 1
+******************************
+
+Sir sortat crescator
+
+bubble sort sortarea nu poate fi realizata
+******************************
+count sort sort time: 264584 microseconds.
+Memorie aditionala folosita: ~400000000 byte(s)
+Succes: 1
+******************************
+merge sort sort time: 50190 microseconds.
+Memorie aditionala folosita: 400000 byte(s)
+Succes: 1
+******************************
+
+Sir sortat descrescator
+
+bubble sort sortarea nu poate fi realizata
+******************************
+count sort sort time: 251897 microseconds.
+Memorie aditionala folosita: ~400000000 byte(s)
+Succes: 1
+******************************
+merge sort sort time: 50376 microseconds.
+Memorie aditionala folosita: 400000 byte(s)
+Succes: 1
+******************************
+
+Sir aproape sortat crescator
+
+bubble sort sortarea nu poate fi realizata
+******************************
+count sort sort time: 241763 microseconds.
+Memorie aditionala folosita: ~400000000 byte(s)
+Succes: 1
+******************************
+merge sort sort time: 50259 microseconds.
+Memorie aditionala folosita: 400000 byte(s)
+Succes: 1
+******************************
+
+Sir aproape sortat descrescator
+
+bubble sort sortarea nu poate fi realizata
+******************************
+count sort sort time: 576654 microseconds.
+Memorie aditionala folosita: ~400000000 byte(s)
+Succes: 1
+******************************
+merge sort sort time: 50202 microseconds.
+Memorie aditionala folosita: 400000 byte(s)
+Succes: 1
+******************************
+
+Sir constant
+
+bubble sort sortarea nu poate fi realizata
+******************************
+count sort sort time: 231772 microseconds.
+Memorie aditionala folosita: ~400000000 byte(s)
+Succes: 1
+******************************
+merge sort sort time: 48264 microseconds.
+Memorie aditionala folosita: 400000 byte(s)
+Succes: 1
+******************************
+
+
+------------------------------------
+

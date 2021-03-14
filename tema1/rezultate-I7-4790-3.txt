@@ -1,0 +1,96 @@
+TEST 1:
+N=10  Nmax=10
+
+Sir aleator
+
+radix sort LSD sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~296 byte(s)
+Succes: 1
+******************************
+radix sort LSD sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~1064 byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+Sir sortat crescator
+
+radix sort LSD sort time: 1 milisecond(s).
+Memorie aditionala folosita: ~296 byte(s)
+Succes: 1
+******************************
+radix sort LSD sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~1064 byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+Sir sortat descrescator
+
+radix sort LSD sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~296 byte(s)
+Succes: 1
+******************************
+radix sort LSD sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~1064 byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+Sir aproape sortat crescator
+
+radix sort LSD sort time: 1 milisecond(s).
+Memorie aditionala folosita: ~296 byte(s)
+Succes: 1
+******************************
+radix sort LSD sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~1064 byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+Sir aproape sortat descrescator
+
+radix sort LSD sort time: 2 milisecond(s).
+Memorie aditionala folosita: ~296 byte(s)
+Succes: 1
+******************************
+radix sort LSD sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~1064 byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+Sir constant
+
+radix sort LSD sort time: 0 milisecond(s).
+Memorie aditionala folosita: ~296 byte(s)
+Succes: 1
+******************************
+radix sort LSD sort time: 1 milisecond(s).
+Memorie aditionala folosita: ~1064 byte(s)
+Succes: 1
+******************************
+intro sort (nativ C++) sort time: 0 milisecond(s).
+Memorie aditionala folosita: ?  byte(s)
+Succes: 1
+******************************
+
+
+------------------------------------
+
