@@ -1,14 +1,5 @@
 # depslib dependency file v1.0
-1614851049 source:e:\mihu\unibuc\onedrive - unibuc.ro\anul1\sem2\sd\tema 1\tema1\main.cpp
-	<iostream>
-	<fstream>
-	<chrono>
-	<stdlib.h>
-	<vector>
-	<string>
-	<climits>
-
-1615756802 source:d:\unibuc\onedrive - unibuc.ro\anul1\sem2\sd\tema 1\tema1\main.cpp
+1617122016 source:e:\mihu\unibuc\onedrive - unibuc.ro\anul1\sem2\sd\tema 1\tema1\main.cpp
 	<iostream>
 	<fstream>
 	<chrono>

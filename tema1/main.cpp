@@ -3,7 +3,6 @@
 #include <chrono>
 #include <stdlib.h>
 #include <vector>
-#include <list>
 #include <random>
 #include <string>
 #include <climits>
@@ -17,8 +16,8 @@ string gen_message[6]= {"aleator","sortat crescator","sortat descrescator",
                         "aproape sortat crescator","aproape sortat descrescator","constant"
                        };
 string sort_names[11]= {"bubble sort","count sort","merge sort","quick sort cu pivot aleator","quick sort cu pivot mediana din 3",
-                        "quick sort cu pivot mediana din 5","radix sort LSD cu 256 buckets (cu matrice)","radix sort LSD cu 1024 buckets (cu matrice)",
-                        "radix sort LSD cu 256 buckets","radix sort LSD cu 1024 buckets","intro sort (nativ C++)"
+                        "quick sort cu pivot mediana din 5","radix sort LSD cu 128 buckets (cu matrice)","radix sort LSD cu 1024 buckets (cu matrice)",
+                        "radix sort LSD cu 128 buckets","radix sort LSD cu 1024 buckets","intro sort (nativ C++)"
                        };
 vector <unsigned> aux; //vector pt merge sort, din pacate un vector declarat local incetineste foarte mult
 unsigned a[5];
@@ -304,7 +303,7 @@ void radix_sort_LSD_matrix(vector <unsigned> &xs,unsigned n,unsigned base)
         {
             for (i=0; i<buckets[bucket].size(); i++)
                 xs[poz++]=buckets[bucket][i];
-                buckets[bucket].resize(0);
+            buckets[bucket].resize(0);
         }
     }
 }
@@ -317,21 +316,23 @@ void radix_sort_LSD(vector <unsigned> &xs,unsigned n,unsigned base)
     unsigned slice,bucket,poz;
     int i;
     buckets.resize(base);
-    sorted.resize(xs.size());
+    sorted.resize(n);
     unsigned log2_base=log2_bit(base); //aflam log in baza 2 din baza (presupunem ca baza este o putere a lui 2)
     unsigned nr_max_bit=nr_bit_max(xs,n); //aflam cati biti are cel mai mare nr
     for (slice=1; slice<=nr_max_bit; slice+=log2_base) //impartim fiecare numar in sliceuri de cate log2 din baza biti,sunt introduse numerele in bucket in functie de valoare slice-ului
     {
-        for (i=0; i<xs.size(); i++)
+        for (i=0; i<base; i++)
+            buckets[i]=0;
+        for (i=0; i<n; i++)
             buckets[((1 << log2_base) - 1) & (xs[i] >> (slice- 1))]++;
         for (bucket=1; bucket<buckets.size(); bucket++) //aflam ultima pozitie din vectorul sortat a ultimei cifre din galeata
             buckets[bucket]+=buckets[bucket-1];
-        for (i=xs.size()-1; i>=0; i--)
+        for (i=n-1; i>=0; i--)
         {
             poz=((1 << log2_base) - 1) & (xs[i] >> (slice- 1));
-            xs[i]=sorted[--buckets[poz]]; //sortam intr-un vector auxiliar
+            sorted[--buckets[poz]]=xs[i]; //sortam intr-un vector auxiliar
         }
-        for (i=0; i<xs.size(); i++) //mutam vectorul auxiliar sortat in vectorul original
+        for (i=0; i<n; i++) //mutam vectorul auxiliar sortat in vectorul original
             xs[i]=sorted[i];
     }
 }
@@ -343,9 +344,9 @@ void radix_sort_LSD(vector <unsigned> &xs,unsigned n,unsigned base)
    4:quick sort cu pivot aleator
    5:quick sort cu pivot mediana din 3
    6:quick sort cu pivot mediana din 5
-   7:radix sort cu bucket 256 (cu matrice)
+   7:radix sort cu bucket 128 (cu matrice)
    8:radix sort cu bucket 1024(cu matrice)
-   9:radix sort cu bucket 256
+   9:radix sort cu bucket 128
    10:radix sort cu bucket 1024
    11:intro sort
 */
@@ -353,7 +354,6 @@ void radix_sort_LSD(vector <unsigned> &xs,unsigned n,unsigned base)
 void call_sort(vector <unsigned> xs,unsigned n,unsigned long long n_max,int sort_type)
 {
     bool valid=true;
-    list <unsigned> listaux; //doar ca sa determinam marimea maxima a unei liste
     g<<sort_names[sort_type-1];
     if (n_max>UINT_MAX)
     {
@@ -389,13 +389,13 @@ void call_sort(vector <unsigned> xs,unsigned n,unsigned long long n_max,int sort
             divide_quick(xs,0,n-1,sort_type-3);
             break;
         case 7:
-            radix_sort_LSD_matrix(xs,n,256);
+            radix_sort_LSD_matrix(xs,n,128);
             break;
         case 8:
             radix_sort_LSD_matrix(xs,n,1024);
             break;
         case 9:
-            radix_sort_LSD(xs,n,256);
+            radix_sort_LSD(xs,n,128);
             break;
         case 10:
             radix_sort_LSD(xs,n,1024);
@@ -427,13 +427,13 @@ void call_sort(vector <unsigned> xs,unsigned n,unsigned long long n_max,int sort
             g<<floor(log10(n)); //quick sort foloseste logn memorie aditionala
             break;
         case 7:
-            g<<"~"<<4*8+n*4;
+            g<<"~"<<4*7+n*4;
             break;
         case 8:
             g<<"~"<<4*10+n*4;
             break;
         case 9:
-            g<<"~"<<4*8+n*4;
+            g<<"~"<<4*7+n*4;
             break;
         case 10:
             g<<"~"<<4*10+n*4;
@@ -453,7 +453,7 @@ void call_sort(vector <unsigned> xs,unsigned n,unsigned long long n_max,int sort
         case 0:
             g<<"(Este posibil ca numerele sa nu poata fi stocate deoarece NMax este prea mare)";
         case 1:
-            g<<"(prea incet, N>10^4)";
+            g<<"(prea incet, N>10^5)";
             break;
         case 2:
             g<<"(NMax prea mare, NMax>capacitatea de stocare a clasei vector)";
@@ -487,7 +487,7 @@ int main()
             xs.resize(n);
         g<<"TEST "<<test<<":"<<"\n";
         g<<"N="<<n<<"  Nmax="<<n_max<<"\n";
-        for (gen_type=2; gen_type<=2; gen_type++)
+        for (gen_type=1; gen_type<=6; gen_type++)
         {
             cout<<"\t gen type "<<gen_message[gen_type-1]<<"\n";
             g<<"\n";
